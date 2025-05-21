@@ -1,0 +1,19 @@
+MLP Multi-class Classification Report
+==================================================
+
+              precision    recall  f1-score   support
+
+    backdoor       0.88      1.00      0.93       870
+        ddos       0.90      0.70      0.79       891
+         dos       0.97      0.96      0.96       870
+   injection       0.46      0.38      0.42       929
+        mitm       0.00      0.00      0.00        23
+      normal       0.88      0.96      0.92     13262
+    password       0.40      0.21      0.28       897
+  ransomware       0.73      0.45      0.56       895
+    scanning       0.51      0.62      0.56       896
+         xss       0.00      0.00      0.00       467
+
+    accuracy                           0.83     20000
+   macro avg       0.57      0.53      0.54     20000
+weighted avg       0.80      0.83      0.81     20000
