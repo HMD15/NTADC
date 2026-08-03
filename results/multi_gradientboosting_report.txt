@@ -1,5 +1,5 @@
 GradientBoosting Multi-class Classification Report
-==================================================
+======================================================
 
               precision    recall  f1-score   support
 
