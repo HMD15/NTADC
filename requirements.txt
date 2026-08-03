@@ -6,4 +6,3 @@ seaborn>=0.11.0
 PyQt5>=5.15.0
 pyqtgraph>=0.13.0
 scapy>=2.4.5
-tqdm>=4.62.0
