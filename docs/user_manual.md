@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Network Traffic Anomaly Detection Tool is designed to monitor network traffic in real-time, detect anomalies, and classify potential attacks. The tool uses machine learning models trained on the TON-IoT dataset to identify various types of network attacks.
+The Network Traffic Anomaly Detection Tool is designed to monitor network traffic in real time, detect anomalies, and classify potential attacks. The tool uses machine learning models trained on the TON-IoT dataset to identify various types of network attacks.
 
 ## Installation
 
