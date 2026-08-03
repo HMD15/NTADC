@@ -3,7 +3,7 @@
 Validation results and documentation for the Network Traffic Anomaly Detection Tool
 """
 
-# Validation Results
+# Validation Result
 VALIDATION_RESULTS = """
 # Network Traffic Anomaly Detection Tool - Validation Results
 
