@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 PyQt5 GUI for Network Traffic Anomaly Detection and Classification
-Provides real-time monitoring, visualization, and alerts for network traffic anomalies
+Provides real time monitoring, visualization, and alerts for network traffic anomalies
 """
 
 import os
