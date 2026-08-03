@@ -192,4 +192,3 @@ type:
   backdoor: 40000
   xss: 20000
   mitm: 1043
-
