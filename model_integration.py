@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Model Integration Module for Network Traffic Anomaly Detection
-Integrates trained models with real-time network sniffer
+Integrates trained models with real time network sniffer
 """
 
 import os
