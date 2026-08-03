@@ -81,6 +81,6 @@ The current implementation has the following limitations and areas for future im
 
 ## Conclusion
 
-The Network Traffic Anomaly Detection Tool successfully meets the requirements for real-time network traffic monitoring and anomaly detection. The system effectively captures network packets, extracts relevant features, applies trained models for detection and classification, and provides a user-friendly interface for monitoring and alerts.
+The Network Traffic Anomaly Detection Tool successfully meets the requirements for real time network traffic monitoring and anomaly detection. The system effectively captures network packets, extracts relevant features, applies trained models for detection and classification, and provides a user-friendly interface for monitoring and alerts.
 
 The tool is ready for deployment in home network environments, with the understanding of the limitations noted above. Future versions can address these limitations to enhance the tool's capabilities and performance.
