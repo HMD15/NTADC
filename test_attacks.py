@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test script for validating network anomaly detection with simulated attacks
+Test the script for validating network anomaly detection with simulated attacks
 """
 
 import sys
