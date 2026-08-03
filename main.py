@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Main entry point for the Network Traffic Anomaly Detection Tool
-Integrates all components and provides a unified interface
+Integrates all components and provides an interface
 """
 
 import os
