@@ -1,6 +1,6 @@
 # Network Traffic Anomaly Detection Testing Guide
 
-This guide provides step-by-step instructions for testing the real-time detection capabilities of your Network Traffic Anomaly Detection tool. It includes procedures for validating both attack detection and confidence threshold functionality.
+This guide provides step-by-step instructions for testing the real time detection capabilities of your Network Traffic Anomaly Detection tool. It includes procedures for validating both attack detection and confidence threshold functionality.
 
 ## Prerequisites
 
