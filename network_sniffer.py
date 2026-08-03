@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Real-time Network Traffic Anomaly Detection with Scapy
+Real time Network Traffic Anomaly Detection with Scapy
 Captures and analyzes network traffic for anomalies
 """
 
