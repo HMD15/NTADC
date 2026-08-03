@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test script for validating end-to-end functionality of the Network Traffic Anomaly Detection Tool
+Test the script for validating end-to-end functionality of the Network Traffic Anomaly Detection Tool
 """
 
 import os
