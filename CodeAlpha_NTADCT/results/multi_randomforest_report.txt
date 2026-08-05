@@ -1,0 +1,19 @@
+RandomForest Multi-class Classification Report
+==================================================
+
+              precision    recall  f1-score   support
+
+    backdoor       0.92      0.91      0.92       870
+        ddos       0.72      0.69      0.70       891
+         dos       0.95      0.94      0.94       870
+   injection       0.34      0.33      0.34       929
+        mitm       0.11      0.17      0.14        23
+      normal       0.92      0.92      0.92     13262
+    password       0.32      0.31      0.31       897
+  ransomware       0.86      0.87      0.87       895
+    scanning       0.60      0.63      0.61       896
+         xss       0.11      0.11      0.11       467
+
+    accuracy                           0.82     20000
+   macro avg       0.58      0.59      0.59     20000
+weighted avg       0.82      0.82      0.82     20000
