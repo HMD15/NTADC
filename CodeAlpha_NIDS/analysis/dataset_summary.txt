@@ -1,0 +1,71 @@
+TON-IoT Dataset Analysis Summary
+================================
+
+Dataset Size:
+  Rows: 901043
+  Columns: 39
+
+Class Distribution:
+  normal: 600000 (66.59%)
+  ddos: 40000 (4.44%)
+  scanning: 40000 (4.44%)
+  ransomware: 40000 (4.44%)
+  password: 40000 (4.44%)
+  injection: 40000 (4.44%)
+  dos: 40000 (4.44%)
+  backdoor: 40000 (4.44%)
+  xss: 20000 (2.22%)
+  mitm: 1043 (0.12%)
+
+Label Distribution:
+  Normal (0): 600000 (66.59%)
+  Attack (1): 301043 (33.41%)
+
+Missing Values: {0}
+
+Key Features for Anomaly Detection:
+  - Network-related: src_port, dst_port, proto, service
+  - Traffic volume: src_bytes, dst_bytes, src_pkts, dst_pkts, src_ip_bytes, dst_ip_bytes
+  - Connection properties: duration, conn_state, missed_bytes
+  - Protocol-specific: dns_*, ssl_*, http_*
+
+Data Types:
+  src_port: int64
+  dst_port: int64
+  proto: object
+  service: object
+  duration: float64
+  src_bytes: object
+  dst_bytes: int64
+  conn_state: object
+  missed_bytes: int64
+  src_pkts: int64
+  src_ip_bytes: int64
+  dst_pkts: int64
+  dst_ip_bytes: int64
+  dns_query: object
+  dns_qclass: int64
+  dns_qtype: int64
+  dns_rcode: int64
+  dns_rejected: object
+  ssl_version: object
+  ssl_cipher: object
+  ssl_resumed: object
+  ssl_established: object
+  ssl_subject: object
+  ssl_issuer: object
+  http_trans_depth: object
+  http_method: object
+  http_uri: object
+  http_version: object
+  http_request_body_len: int64
+  http_response_body_len: int64
+  http_status_code: int64
+  http_user_agent: object
+  http_orig_mime_types: object
+  http_resp_mime_types: object
+  weird_name: object
+  weird_addl: object
+  weird_notice: object
+  label: int64
+  type: object

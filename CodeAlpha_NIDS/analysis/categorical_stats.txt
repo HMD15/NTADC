@@ -1,0 +1,194 @@
+proto:
+  tcp: 631662
+  udp: 259440
+  icmp: 9941
+
+service:
+  -: 591413
+  dns: 178430
+  http: 121068
+  ssl: 9294
+  ftp: 339
+  gssapi: 173
+  dce_rpc: 111
+  dhcp: 61
+  smtp;ssl: 39
+  ssl;smtp: 39
+
+src_bytes:
+  0: 609019
+  130: 14409
+  132: 8976
+  226: 8197
+  383: 7881
+  48: 7270
+  41: 6808
+  66: 5896
+  155: 5672
+  31: 5509
+
+conn_state:
+  OTH: 246042
+  SF: 226097
+  S0: 224567
+  REJ: 92653
+  SHR: 39646
+  SH: 21697
+  S1: 19450
+  S3: 18007
+  RSTO: 5408
+  RSTOS0: 2787
+
+dns_query:
+  -: 771576
+  a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com: 14480
+  elasticsearch: 5592
+  elasticsearch.mydns.com: 5583
+  testphp.vulnweb.com: 3969
+  desktop-7q9apbo.local: 3038
+  www.mqtt-dashboard.com: 3034
+  arpa.whois-servers.net: 2654
+  desktop-7q9apbo: 2644
+  (empty): 2448
+
+dns_rejected:
+  -: 770469
+  F: 125120
+  T: 5454
+
+ssl_version:
+  -: 900603
+  TLSv12: 169
+  TLSv10: 143
+  TLSv13: 128
+
+ssl_cipher:
+  -: 900603
+  TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256: 163
+  TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA: 143
+  TLS_AES_128_GCM_SHA256: 128
+  TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384: 5
+  TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256: 1
+
+ssl_resumed:
+  -: 900198
+  F: 753
+  T: 92
+
+ssl_established:
+  -: 900198
+  F: 610
+  T: 235
+
+ssl_subject:
+  -: 900900
+  CN=Mr Shepherd;OU=Security Shepherd Project;O=OWASP;L=Dublin;ST=Ireland;C=IE: 136
+  CN=*.wns.windows.com: 3
+  CN=settings-win.data.microsoft.com;OU=WSE;O=Microsoft;L=Redmond;ST=WA;C=US: 2
+  CN=*.events.data.microsoft.com;OU=Microsoft;O=Microsoft Corporation;L=Redmond;ST=WA;C=US: 1
+  CN=sls.update.microsoft.com;OU=DSP;O=Microsoft;L=Redmond;ST=WA;C=US: 1
+
+ssl_issuer:
+  -: 900900
+  CN=Mr Shepherd;OU=Security Shepherd Project;O=OWASP;L=Dublin;ST=Ireland;C=IE: 136
+  CN=Microsoft IT TLS CA 5;OU=Microsoft IT;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US: 3
+  CN=Microsoft Secure Server CA 2011;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US: 3
+  CN=Microsoft Update Secure Server CA 2.1;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US: 1
+
+http_trans_depth:
+  -: 900628
+  1: 380
+  2: 25
+  4: 2
+  6: 2
+  8: 2
+  3: 1
+  7: 1
+  5: 1
+  9: 1
+
+http_method:
+  -: 900638
+  GET: 284
+  POST: 120
+  HEAD: 1
+
+http_uri:
+  -: 900638
+  /: 123
+  /dvwa/login.php: 67
+  /no_nonce_string/: 16
+  /no_nonce_string/ContentDirectory/scpd.xml: 11
+  /filestreamingservice/files/846ab63f-c24f-4c71-bc98-6d8fa3f5e5d7?P1=1554310453&P2=402&P3=2&P4=l0mwXDvb5/y2rqu/g6TNhETQLS++OvWqWkMXYMSnMuqiHgfVXg9rPHQAr/I7U+Oo5I++LRwjHuFY5S5SbIij1g==: 9
+  /filestreamingservice/files/1f41d40e-6e49-42f0-a4dc-3d35029e2a5d?P1=1554315773&P2=402&P3=2&P4=D2MtshBIyXICLz+f8ls5Sa4mWcxA1B670oj1WRainhnd91v77n9XO6/xoc4QeEYZdwdKSG+6cFNvkBVYbJdXpw==: 8
+  /icon_SML.png: 8
+  /d/msdownload/update/software/defu/2019/02/updateplatform_23725566d66a26c81fbfaf79701b727f92a650ea.exe: 7
+  /icon_LRG.png: 7
+
+http_version:
+  -: 900632
+  1.1: 411
+
+http_user_agent:
+  -: 900638
+  Mozilla/5.0 (Hydra): 63
+  Microsoft-Delivery-Optimization/10.0: 52
+  Microsoft-Windows/10.0 UPnP/1.0: 36
+  Ruby: 25
+  User-Agent: Microsoft-DLNA DLNADOC/1.50: 21
+  DAFUPnP: 19
+  Windows-Update-Agent/10.0.10011.16384 Client-Protocol/1.91: 13
+  Microsoft-Windows/10.0 UPnP/1.0 Microsoft-DLNA DLNADOC/1.50: 7
+  MICROSOFT_DEVICE_METADATA_RETRIEVAL_CLIENT: 7
+
+http_orig_mime_types:
+  -: 900997
+  text/plain: 35
+  application/xml: 6
+  application/soap+xml: 5
+
+http_resp_mime_types:
+  -: 900828
+  application/xml: 65
+  text/html: 61
+  text/plain: 44
+  application/vnd.ms-cab-compressed: 16
+  image/png: 15
+  image/jpeg: 6
+  application/ocsp-response: 5
+  text/json: 2
+  application/x-debian-package: 1
+
+weird_name:
+  -: 899678
+  DNS_RR_unknown_type: 852
+  active_connection_reuse: 246
+  data_before_established: 83
+  bad_UDP_checksum: 83
+  bad_TCP_checksum: 52
+  connection_originator_SYN_ack: 27
+  dnp3_corrupt_header_checksum: 6
+  TCP_ack_underflow_or_misorder: 4
+  inappropriate_FIN: 3
+
+weird_addl:
+  -: 900191
+  46: 792
+  48: 47
+  43: 13
+
+weird_notice:
+  -: 899678
+  F: 1365
+
+type:
+  normal: 600000
+  ddos: 40000
+  scanning: 40000
+  ransomware: 40000
+  password: 40000
+  injection: 40000
+  dos: 40000
+  backdoor: 40000
+  xss: 20000
+  mitm: 1043
